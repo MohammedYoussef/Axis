@@ -22,5 +22,6 @@ public class TC_lOG_002 {
     public void beforeClass() {
         driver = new SHAFT.GUI.WebDriver();
         userCredentials = new SHAFT.TestData.JSON("src/test/resources/testDataFiles/userCredentials.json");
+        //NUL
     }
 }
